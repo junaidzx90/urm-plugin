@@ -1,0 +1,42 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .urm_user_field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ddd;
+}
+.urm_user_field:last-child{
+    border-bottom: none;
+}
+option[value=""] {
+    color: #ddd;
+}
+
+
+.filearea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0;
+}
+.file_preview {
+  border-top: 1px solid #ddd;
+  padding: 0 10px;
+}
+span.user_document_btn{
+  cursor: pointer;
+  user-select: none;
+  color: #2271b1;
+}
+.recipient_error {
+  border: 1px solid #efc3c3;
+  padding: 5px;
+  border-left: 4px solid red;
+  color: red;
+  background: #ff000014;
+}
